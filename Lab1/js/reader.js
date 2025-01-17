@@ -3,6 +3,7 @@ document.getElementById('backButton').addEventListener('click', function(){
     window.location.href = "./index.html";
 })
 
+//Class for reading Notes. Handles functionality of Notes reading and displaying
 class NotesReader {
     constructor(){
         this.retrieveInterval = null;
